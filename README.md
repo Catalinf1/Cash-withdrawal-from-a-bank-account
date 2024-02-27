@@ -23,15 +23,12 @@ The program will ask you to enter your account number and then display the avail
 
 **** Welcome to ATM *****
 
-Enter account number: 123456789
+Enter account number: 
 Select options:
 1. Check balance
 2. Cash withdraw
 3. Show user details
 4. Update mobile number
 5. Exit
-1
-Your balance is: 1000
-
 
 To exit the program, you can enter 5 or press Ctrl+C.
