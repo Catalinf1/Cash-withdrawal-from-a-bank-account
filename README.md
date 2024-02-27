@@ -1,25 +1,39 @@
-# ATM
-
-This repository contains the code for a simple ATM program implemented in C++. The program simulates an ATM machine, allowing users to perform various operations on their bank account.
+# ATM Program
+This is a C++ program that simulates an ATM (Automated Teller Machine) system. It allows users to perform basic banking operations, such as checking balance, withdrawing cash, showing user details, and updating mobile number.
 
 ## Features
+The program uses a Bank class that represents a bank account with some attributes and methods.
+The program prompts the user to enter their account number and verifies it with the Bank object.
+The program offers different options for the user to choose from, such as checking balance, withdrawing cash, showing user details, updating mobile number, or exiting the program.
+The program uses a switch statement to execute the corresponding actions based on the user’s choice.
+The program validates the user’s input and handles errors gracefully.
+Installation
+To run this program, you need to have a C++ compiler installed on your machine. You can use any C++ compiler of your choice, such as GCC, Clang, or Visual Studio. You also need to clone this repository to your local machine using the following command:
 
-- Check balance
-- Cash withdrawal
-- Display user details
-- Update mobile number
+## Clone this repository
+git clone https://github.com/Catalinf1/Cash-withdrawal-from-a-bank-account.git
 
-## Classes
+Usage
+To compile and run this program, you need to navigate to the project directory and use the following command:
 
-- `Bank`: Represents a bank account with details like account holder's name, account number, account type, balance, and mobile number. It also has methods for setting these values, displaying them, depositing money into the account, withdrawing money from the account, and updating the mobile number.
+## Compile the program
+g++ main.cpp -o atm
 
-## Functions
+## Run the program
+./atm
 
-- `addData()`: Adds a new bank account to the system.
-- `displayData()`: Displays all bank accounts in the system.
-- `deleteData()`: Deletes a bank account from the system.
-- `getTrash()`: Retrieves and displays deleted accounts.
+The program will ask you to enter your account number and then display the available options. You can enter the number of the option you want to perform and follow the instructions. For example:
 
-## How to Run
+**** Welcome to ATM *****
 
-Compile the code with a C++ compiler that supports C++17 or later. Run the resulting executable to start the program.
+Enter account number: 123456789
+Select options:
+1. Check balance
+2. Cash withdraw
+3. Show user details
+4. Update mobile number
+5. Exit
+1
+Your balance is: 1000
+
+To exit the program, you can enter 5 or press Ctrl+C.
