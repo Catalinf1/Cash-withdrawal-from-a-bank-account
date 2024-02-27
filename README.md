@@ -9,12 +9,12 @@ This is a C++ program that simulates an ATM (Automated Teller Machine) system. I
 - The program uses a switch statement to execute the corresponding actions based on the user’s choice.
 - The program validates the user’s input and handles errors gracefully.
 
-##Installation
+## Installation
 To run this program, you need to have a C++ compiler installed on your machine. You can use any C++ compiler of your choice, such as GCC, Clang, or Visual Studio. You also need to clone this repository to your local machine using the following command:
 
 `$ git clone https://github.com/Catalinf1/Cash-withdrawal-from-a-bank-account.git # Clone this repository`
 
-##Usage
+## Usage
 To compile and run this program, you need to navigate to the project directory and use the following command:
 
 `$ g++ main.cpp -o atm # Compile the program
